@@ -68,6 +68,7 @@ namespace PizzaManiaDemo.ViewModels
                 var ranks = String.Format("{0,3}", rank);
                 var types =  pizza.PizzaType.PadRight(max);
                 Console.WriteLine("Rank: {0} - Type: {1} - Total Orders: {2}", ranks, types, pizza.Count);
+                rank += 1;
             }
         }
     }
